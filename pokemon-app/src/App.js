@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { getAllPokemon, getPokemon } from './utils/pokemon/pokemon.js';
-import Navbar from './components/Navbar/Navbar.js';
-import Card from './components/Card/Card.js';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Card from './components/Card/Card.jsx';
 
 function App() {
   const initialURL = "https://pokeapi.co/api/v2/pokemon/";
