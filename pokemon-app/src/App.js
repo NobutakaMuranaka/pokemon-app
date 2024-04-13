@@ -70,7 +70,7 @@ function App() {
               })}
             </div>
             <div className='btn'>
-              <button onClick={handlePrevPage}>前へ</button>
+              {prevURL && <button onClick={handlePrevPage}>前へ</button>}
               <button onClick={handleNextPage}>次へ</button>
             </div>
           </>
