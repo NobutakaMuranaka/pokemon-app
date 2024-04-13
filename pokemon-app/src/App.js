@@ -45,6 +45,7 @@ function App() {
     setNextURL(data.next);
     setPrevURL(data.previous);
     setLoading(false);
+    window.scrollTo(0, 0);
   };
 
   const handlePrevPage = async () => {
@@ -54,6 +55,7 @@ function App() {
     await loadPokemon(data.results);
     setPrevURL(data.prev);
     setLoading(false);
+    window.scrollTo(0, 0);
   };
 
   return (
